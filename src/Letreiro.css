@@ -1,0 +1,17 @@
+.letreiro {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(90deg, #c51b18, #ff0000);
+    padding: 20px 40px;
+    border-radius: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 40px auto;
+    width: 500px;
+    height: 54px;
+  }
+  
+ 
