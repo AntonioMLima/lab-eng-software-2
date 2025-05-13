@@ -1,8 +1,8 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 import Home from "./Home";
-import Atv01 from "./Atv01";
-import Atv02 from "./Atv02";
+import Atv01 from "./atv1/Atv01";
+import Atv02 from "./atv2/Atv02";
 
 export default function MyRoutes() {
     return(
