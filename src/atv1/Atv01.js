@@ -10,11 +10,11 @@ export default function Atv01() {
         <div className="atv01-container">
           <Letreiro />
           <Relogio />  
+            
+        </div>
           <Link to="../" className="back-link">
         Voltar à página inicial
       </Link> 
-            
-        </div>
         </>
           
     );

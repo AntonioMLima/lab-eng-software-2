@@ -6,7 +6,7 @@ import "./Botao.css";
 export default function BotaoAdd() {
   return (
     <>
-      <IconContext.Provider value={{ color: "green",  size: "1.7em" }}>
+      <IconContext.Provider value={{ color: "green",  size: "3em" }}>
  
           <CiSquarePlus/>
      

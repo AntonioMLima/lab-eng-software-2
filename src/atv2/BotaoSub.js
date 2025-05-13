@@ -6,7 +6,7 @@ import "./Botao.css";
 export default function BotaoSub() {
   return (
     <>
-      <IconContext.Provider value={{ color: "red", size: "1.7em" }}>
+      <IconContext.Provider value={{ color: "red", size: "3em" }}>
 
           <CiSquareMinus/>
 

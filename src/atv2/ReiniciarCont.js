@@ -4,7 +4,7 @@ import { IconContext } from "react-icons";
 export default function ReiniciarCont({funcao}) {
     return(
 
-    <IconContext.Provider value={{  size: "1.5em"}}>
+    <IconContext.Provider value={{  size: "3.5em"}}>
         <div onClick={funcao}>
           <MdRestartAlt/>
         </div>

@@ -23,7 +23,7 @@ export default function Contador({g, quantidade, funcaoInc, funcaoDec}) {
         
       <>
           <div className="contador-container">
-      <IconContext.Provider value={{ color: cor, size: "3em" }}>
+      <IconContext.Provider value={{ color: cor, size: "10em" }}>
         <div className="icone-genero">
           {genero}
         </div>
