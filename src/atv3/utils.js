@@ -1,0 +1,1 @@
+export function getImageUrl(person, size = 's')

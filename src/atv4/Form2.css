@@ -1,0 +1,40 @@
+.form-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.form-container input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-container input:focus {
+    outline: none;
+    border-color: #4a6fa5;
+    box-shadow: 0 0 0 2px rgba(74, 111, 165, 0.2);
+}
+
+.form-container p {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    color: #495057;
+}

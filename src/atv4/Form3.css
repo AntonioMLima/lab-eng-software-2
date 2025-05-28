@@ -1,0 +1,61 @@
+.art-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .art-form label {
+    display: block;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .art-form input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+  }
+  
+  .art-form input:focus {
+    outline: none;
+    border-color: #6c5ce7;
+    box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.2);
+  }
+  
+  .art-form p {
+    margin: 2rem 0;
+    padding: 1.25rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    line-height: 1.6;
+    color: #34495e;
+    font-style: italic;
+  }
+  
+  .art-form img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem auto 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #eee;
+  }
+  
+  .art-form br {
+    content: "";
+    display: block;
+    margin: 0.5rem 0;
+  }

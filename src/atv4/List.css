@@ -1,0 +1,55 @@
+.list-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .list-container h1 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .list-container input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .list-container button {
+    background-color: #4a6fa5;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+    margin-bottom: 1.5rem;
+  }
+  
+  .list-container button:hover {
+    background-color: #3a5a8a;
+  }
+  
+  .list-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list-container li {
+    padding: 0.75rem;
+    border-bottom: 1px solid #eee;
+    color: #333;
+  }
+  
+  .list-container li:last-child {
+    border-bottom: none;
+  }
