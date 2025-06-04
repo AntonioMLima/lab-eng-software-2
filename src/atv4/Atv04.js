@@ -12,6 +12,8 @@ import CounterList from "./CounterList";
 import List3 from "./List3";
 import List4 from "./List4";
 import BucketList from "./BucketList";
+import { Link } from "react-router-dom";
+
 
 
 export default function Atv4() {
@@ -31,6 +33,11 @@ export default function Atv4() {
             <List3 />
             <List4 />
             <BucketList />
+            <div>
+      <Link to="../" className="back-link">
+        Voltar à página inicial
+      </Link> 
+    </div>
         </>
     )
 }

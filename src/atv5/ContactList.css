@@ -1,0 +1,64 @@
+/* Contact List Container */
+.contact-list {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 15px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* List Styling */
+.contact-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* List Item Styling */
+.contact-list li {
+  margin-bottom: 8px;
+}
+
+/* Contact Button */
+.contact-list button {
+  width: 100%;
+  padding: 12px 15px;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 6px;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Hover Effect */
+.contact-list button:hover {
+  background-color: #e9e9e9;
+  transform: translateX(3px);
+}
+
+/* Selected Contact */
+.contact-list button.selected {
+  background-color: #4a90e2;
+  color: white;
+  font-weight: 500;
+}
+
+/* Active State */
+.contact-list button:active {
+  transform: scale(0.98);
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .contact-list {
+    padding: 10px;
+  }
+  
+  .contact-list button {
+    padding: 10px 12px;
+    font-size: 15px;
+  }
+}
